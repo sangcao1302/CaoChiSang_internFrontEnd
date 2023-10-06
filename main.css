@@ -16,7 +16,9 @@ body{
 
 .row .item-left{
     background-color:  #191718;
-   height: 100vh; 
+   display: flex;
+   flex-direction: column;
+   min-height: 100vh; 
    
 }
 .row .item-left a{
