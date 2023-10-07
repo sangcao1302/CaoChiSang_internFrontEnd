@@ -47,9 +47,10 @@ body{
 }
 .item-right{
     text-align: center;
-    padding: 0 5%;
+   
    width: 90%;
    max-height: 100%;
+   position: relative;
 }
 .item-right .logo{
     width: 100%;
@@ -80,6 +81,9 @@ body{
     background-color:#EFEFEF;
    padding: 5% 27%;
 }
+.item-right .text{
+    padding: 0 5%;
+}
  .item-right .item-product{
     
     text-align: left;
@@ -92,11 +96,13 @@ body{
 }
 .item-right .footer{
     text-align: left;
+   
 }
  hr{
     margin-top: 10%;
-    width: 100%;
- 
+    /* width: 100%; */
+   
+   
  }
 
   @media only screen and (min-width: 768px) {
@@ -115,6 +121,7 @@ body{
     .item-right{
         left: 0;
        width: 100%;
+       padding: 0;
     }
     .item-right .item-product{
         display: block;
@@ -127,5 +134,9 @@ body{
     background-color:#EFEFEF;
     padding: 2% 15px;
     text-align: justify;
+    }
+    hr{
+      
+      position: sticky;
     }
   }
