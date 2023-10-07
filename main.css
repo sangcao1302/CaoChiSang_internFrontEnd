@@ -47,8 +47,7 @@ body{
 }
 .item-right{
     text-align: center;
-  
- 
+    padding: 0 5%;
    width: 90%;
    max-height: 100%;
 }
@@ -97,6 +96,7 @@ body{
  hr{
     margin-top: 10%;
     width: 100%;
+ 
  }
 
   @media only screen and (min-width: 768px) {
@@ -123,5 +123,9 @@ body{
     display: block;
     text-align: center;
    }
-   
+   .item-right .text-heading{
+    background-color:#EFEFEF;
+    padding: 2% 15px;
+    text-align: justify;
+    }
   }
